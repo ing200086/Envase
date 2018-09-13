@@ -3,7 +3,7 @@
 namespace Ing200086\GraphCore\Tests\Unit\Edge;
 
 use Ing200086\GraphCore\Edge\EdgeDirectionEnum;
-use Ing200086\GraphCore\Edge\Registered;
+use Ing200086\GraphCore\Edge\Edge;
 
 
 /**
@@ -16,7 +16,7 @@ class RegisteredWithFromToTest extends TestCase {
     /** @test */
     public function it_can_return_if_it_contains_a_vertex()
     {
-        $suspect = $this->mockVertex($this->graph, 0);
+        $suspect = $this->mockVertex(0);
 
         $this->assertTrue($this->edge->contains($suspect));
     }
@@ -37,6 +37,6 @@ class RegisteredWithFromToTest extends TestCase {
 
     protected function generateArticle()
     {
-        return Registered::CreateDirectedFromTo($this->source, $this->destination);
+        return Edge::CreateFromTo($this->source, $this->destination);
     }
 }

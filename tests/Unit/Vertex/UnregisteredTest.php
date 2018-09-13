@@ -22,7 +22,9 @@ class UnregisteredTest extends TestCase {
         $this->vertex = new Unregistered(1);
     }
 
-    /** @test */
+    /** @test
+     * @group focus
+     */
     public function it_has_an_Id()
     {
         $this->assertEquals(1, $this->vertex->getId());

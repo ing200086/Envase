@@ -2,155 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661232df-02d6-4481-bc48-13addd804e25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/graph.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Amount/AmountAbstract.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Amount/AmountInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Amount/NonNegativeAmount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Amount/PositiveAmount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attribute/AttributeAware.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attribute/AttributeBag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attribute/AttributeBagContainer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attribute/AttributeBagNamespaced.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attribute/AttributeBagReference.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Capacity/Utilization.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Capacity/UtilizationAbstract.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Capacity/UtilizationInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Capacity/UtilizationUnset.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/Directed.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/Directed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/EdgeInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/EdgeInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/Registered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/Registered.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredDirectionless.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/RegisteredDirectionless.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredFromTo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/RegisteredFromTo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/RegisteredInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredToFrom.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/RegisteredToFrom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/Undirected.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/Undirected.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/BadMethodCallException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/BadMethodCallException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/DomainException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/DomainException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/LogicException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/LogicException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/NegativeCycleException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/NegativeCycleException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/OutOfBoundsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/OutOfBoundsException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/OverflowException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/OverflowException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/RangeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/RangeException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/RuntimeException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/UnderflowException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/UnderflowException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/UnexpectedValueException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exporter/ExporterInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Finders/Facade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Finders/VertexFinder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generator/IdGenerator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Entity/EntityContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Entity/EntityContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Entity/InterfaceContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Entity/InterfaceContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Entity/InterfaceEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Entity/InterfaceEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/BaseContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/BaseContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/ClosedContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/ClosedContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/InterfaceBaseContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/InterfaceBaseContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/InterfaceClosedContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/InterfaceClosedContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/InterfaceClosedGetMatchesContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/InterfaceClosedGetMatchesContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/InterfaceOpenContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/InterfaceOpenContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/NotFoundException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Container/Generic/OpenContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Generic/OpenContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Graph.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/GraphInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Vertices/AbstractContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertices/AbstractContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Vertices/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertices/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Vertices/InterfaceContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertices/InterfaceContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Vertices/RegisteredContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertices/RegisteredContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImmutableGraph.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImmutableGraphInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImmutableVertex.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImmutableVertexInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Builders/Vertex/AbstractBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Builders/Vertex/ArrayBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Builders/Vertex/BaseBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Edge/Base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Edge/Inverted.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Graph/AbstractBase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Graph/Base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Graph/Edgeless.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Graph/Edges.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Cloners/Vertex/Base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Edge.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Facade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Graph.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manipulators/Vertex.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/DualAggregate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/Edges.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/EdgesAggregate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/Vertices.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/VerticesAggregate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/VerticesMap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Edge/OldTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Edge/UtilizationTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Edge/WeightTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Graph/AttributeTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Graph/EdgeTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Graph/GraphTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Graph/VertexTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/BackwardsCompat/Vertex/OldTraits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transformer/VertexEdges.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/Collection/OrderedTuple.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/Collection/OrderedTuple.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/ComparibleInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/ComparibleInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/Comparison/Registered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/Comparison/Registered.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/Comparison/Unregistered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/Comparison/Unregistered.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/Registered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/Registered.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/RegisteredInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/RegisteredInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/Base.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/Directed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/Registered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/Edge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredDirectionless.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/EdgeUnbiased.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredFromTo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/EdgeFromTo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/EdgeInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/RegisteredToFrom.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge/EdgeToFrom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/Undirected.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex/Collection/OrderedTuple.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex/Comparison/Registered.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex/Comparison/Unregistered.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex/Registered.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex/RegisteredInterface.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vertex/Unregistered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/Unregistered.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/UnregisteredInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex/UnregisteredInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VertexInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Walk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creator/VertexCreatorTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Graph/SimpleEdgelessTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Attribute/AbstractAttributeAwareTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Attribute/AttributeBagContainerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Attribute/AttributeBagNamespacedTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Attribute/AttributeBagReferenceTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Edge/EdgeAttributesTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Edge/EdgeBaseTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Edge/EdgeDirectedTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Edge/EdgeUndirectedTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Exception/NegativeCycleExceptionTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/GraphTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Set/BaseVerticesTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Set/EdgesTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Set/VerticesMapTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/Set/VerticesTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/VertexTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Old/WalkTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Amount/PositiveAmountTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Capacity/UtilizationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Capacity/UtilizationUnsetTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertices/RegisteredContainer.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithDirectionlessTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithDirectionlessTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithFromToTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithFromToTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithToFromTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithToFromTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Edge/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Edge/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Container/Entity/EntityContainerClosedOperationsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Container/Entity/EntityContainerClosedOperationsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Container/Generic/BaseContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Container/Generic/BaseContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Container/Generic/ClosedContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Container/Generic/ClosedContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Container/Generic/OpenContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Container/Generic/OpenContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Container/Generic/Stubs/StubInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Container/Generic/Stubs/StubInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Container/Generic/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Container/Generic/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/GraphTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Vertices/ContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Vertices/ContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Vertices/RegisteredContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Vertices/RegisteredContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Graph/Vertices/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Vertices/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ImmutableGraphTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Vertex/Collection/OrderedTupleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Vertex/Collection/OrderedTupleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Vertex/RegisteredTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Vertex/RegisteredTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Vertex/Collection/OrderedTupleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Vertex/RegisteredTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Vertex/UnregisteredTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Vertex/UnregisteredTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -285,24 +158,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="14" />
+          <entry key="php" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="14" />
+          <entry key="PHP" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="61" />
           <entry key="json" value="26" />
-          <entry key="php" value="15" />
+          <entry key="php" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="26" />
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="108" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
     </session>
@@ -310,49 +185,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vertex/UnregisteredInterface.php">
+        <entry file="file://$PROJECT_DIR$/src/Vertex/Unregistered.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithDirectionlessTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithFromToTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithToFromTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Edge/Edge.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Edge/EdgeUnbiased.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exception/InvalidArgumentException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Vertices/ContainerTest.php">
+        <entry file="file://$PROJECT_DIR$/src/Edge/EdgeFromTo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Vertices/RegisteredContainerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="21" column="123" selection-start-line="21" selection-start-column="123" selection-end-line="21" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Vertex/RegisteredTest.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Vertex/UnregisteredTest.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/Edge/EdgeInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Edge/EdgeToFrom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/TestCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+              <folding>
+                <element signature="e#56#109#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -372,7 +295,6 @@
       <find>Fhaculty\Graph\Tests</find>
       <find>flow</find>
       <find>set</find>
-      <find>@group</find>
       <find>capacity</find>
       <find>create</find>
       <find>@group foc</find>
@@ -389,6 +311,7 @@
       <find>Ing200086\GraphCore\</find>
       <find>@group refactored</find>
       <find>@group   refactored</find>
+      <find>@group</find>
     </findStrings>
     <replaceStrings>
       <replace>Fhaculty\Graph\Tests</replace>
@@ -404,6 +327,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/tests/Unit/Container</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/tests</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -412,19 +336,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/Unit/Generic/Container/ClosedContainerTest.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/Generic/Container/OpenContainerTest.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/InterfaceEntity.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/InterfaceContainer.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Vertices/InterfaceContainer.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/EntityContainer.php" />
-        <option value="$PROJECT_DIR$/src/Vertex/Unregistered.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/Container/InterfaceBaseContainer.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/Entity/EntityContainer.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/Entity/InterfaceContainer.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Generics/Entity/InterfaceEntity.php" />
-        <option value="$PROJECT_DIR$/src/Graph/Vertices/AbstractContainer.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Generic/Container/BaseContainerTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Container/Generic/Stubs/StubInterface.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Graph/Container/Generic/TestCase.php" />
@@ -459,10 +370,23 @@
         <option value="$PROJECT_DIR$/tests/Unit/Container/Generic/ClosedContainerTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Container/Generic/OpenContainerTest.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/tests/Unit/Edge/TestCase.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Vertices/TestCase.php" />
         <option value="$PROJECT_DIR$/src/Vertex/UnregisteredInterface.php" />
         <option value="$PROJECT_DIR$/src/Exception/InvalidArgumentException.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Vertex/UnregisteredTest.php" />
+        <option value="$PROJECT_DIR$/src/Vertex/Unregistered.php" />
+        <option value="$PROJECT_DIR$/src/Edge/Directed.php" />
+        <option value="$PROJECT_DIR$/src/Edge/RegisteredDirectionless.php" />
+        <option value="$PROJECT_DIR$/src/Edge/RegisteredFromTo.php" />
+        <option value="$PROJECT_DIR$/src/Edge/RegisteredToFrom.php" />
+        <option value="$PROJECT_DIR$/src/Edge/Undirected.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithDirectionlessTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithFromToTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithToFromTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Edge/TestCase.php" />
+        <option value="$PROJECT_DIR$/src/Edge/Registered.php" />
+        <option value="$PROJECT_DIR$/src/Edge/RegisteredInterface.php" />
+        <option value="$PROJECT_DIR$/src/Edge/EdgeInterface.php" />
       </list>
     </option>
   </component>
@@ -586,22 +510,7 @@
               <item name="graphCore" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Vertex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphCore" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Vertex" type="462c0819:PsiDirectoryNode" />
-              <item name="Collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphCore" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Vertices" type="462c0819:PsiDirectoryNode" />
+              <item name="Edge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -662,12 +571,12 @@
       <workItem from="1536508582134" duration="98000" />
       <workItem from="1536508707859" duration="50830000" />
       <workItem from="1536805821121" duration="687000" />
-      <workItem from="1536806531381" duration="864000" />
+      <workItem from="1536806531381" duration="2065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126658000" />
+    <option name="totallyTimeSpent" value="127859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -681,7 +590,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32972974" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -721,103 +630,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/InterfaceOpenContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Edge/Undirected.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Edge/RegisteredToFrom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Edge/Registered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="89" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vertex/ComparibleInterface.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vertex/Unregistered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/InterfaceBaseContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/BaseContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/Stubs/StubInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/InterfaceClosedContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/InterfaceClosedGetMatchesContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/ClosedContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Generic/OpenContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Entity/EntityContainerClosedOperationsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Container/Entity/EntityContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Container/Entity/InterfaceContainer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -980,38 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/ClosedContainerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/OpenContainerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/BaseContainerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1056,8 +840,143 @@
     <entry file="file://$PROJECT_DIR$/tests/Unit/Vertex/RegisteredTest.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Vertex/UnregisteredTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Entity/EntityContainerClosedOperationsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/BaseContainerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/ClosedContainerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/OpenContainerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Vertex/Collection/OrderedTupleTest.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Vertex/UnregisteredTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#57#116#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vertex/Unregistered.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/Directed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#103#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/EdgeFromTo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/Undirected.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/EdgeInterface.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/EdgeToFrom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithDirectionlessTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithFromToTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/RegisteredWithToFromTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Edge/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="e#56#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/EdgeUnbiased.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/Edge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge/EdgeInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

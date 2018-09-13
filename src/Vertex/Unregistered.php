@@ -3,16 +3,13 @@
 namespace Ing200086\GraphCore\Vertex;
 
 use Ing200086\GraphCore\Exception\InvalidArgumentException;
-use Ing200086\GraphCore\Vertex\Comparison\Unregistered as Comparitor;
 
 class Unregistered implements UnregisteredInterface {
     protected $_id;
-    protected $_comparitor;
 
     public function __construct($id)
     {
         $this->setId($id);
-        $this->_comparitor = new Comparitor();
     }
 
     public function getId() : string
@@ -32,8 +29,12 @@ class Unregistered implements UnregisteredInterface {
 
     public function isEqualTo($subject)
     {
-        $this->validateForComparison($subject);
-        return $this->getComparitor()->areEqual($this, $subject);
+        return ($this == $subject);
+    }
+
+    public function isSameTo(&$subject)
+    {
+        return ($this === $subject);
     }
 
     protected function validateForComparison($subject)
@@ -42,16 +43,6 @@ class Unregistered implements UnregisteredInterface {
         {
             throw new InvalidArgumentException('Comparison invalid - subject must be instance of ' . get_class($this) . '.');
         }
-    }
-
-    protected function getComparitor()
-    {
-        return $this->_comparitor;
-    }
-
-    public function isSameTo(&$subject)
-    {
-        return ($this === $subject);
     }
 
     protected function isValidId($id)

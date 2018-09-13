@@ -2,9 +2,9 @@
 
 namespace Ing200086\GraphCore\Edge;
 
-use Ing200086\GraphCore\Vertex\RegisteredInterface as VertexInterface;
+use Ing200086\GraphCore\Vertex\UnregisteredInterface as VertexInterface;
 
-class RegisteredFromTo extends Registered {
+class EdgeFromTo extends Edge {
 
     public function providesEntryTo(VertexInterface $vertex)
     {
