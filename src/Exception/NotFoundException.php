@@ -1,6 +1,6 @@
 <?php
 
-namespace Ing200086\GraphCore\Container\Generic;
+namespace Ing200086\GraphCore\Exception;
 
 use Exception;
 use Psr\Container\NotFoundExceptionInterface;

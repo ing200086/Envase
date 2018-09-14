@@ -2,7 +2,7 @@
 
 namespace Ing200086\GraphCore\Tests\Unit\Container\Generic;
 
-use Ing200086\GraphCore\Container\Generic\BaseContainer;
+use Ing200086\GraphCore\BaseContainer;
 
 /**
  * Class ClosedContainerTest
@@ -44,7 +44,7 @@ class BaseContainerTest extends TestCase {
     }
 
     /** @test
-     * @expectedException Ing200086\GraphCore\Container\Generic\NotFoundException
+     * @expectedException Ing200086\GraphCore\Exception\NotFoundException
      */
     public function it_returns_exception_if_id_is_not_contained()
     {

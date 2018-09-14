@@ -1,8 +1,10 @@
 <?php
 
-namespace Ing200086\GraphCore\Container\Generic;
+namespace Ing200086\GraphCore\Generic;
 
-class OpenContainer extends ClosedContainer implements InterfaceOpenContainer {
+use Ing200086\GraphCore\BaseContainer;
+
+class Container extends BaseContainer implements ContainerInterface {
     public function add(string $key, $item)
     {
         $this->_add($key, $item);
