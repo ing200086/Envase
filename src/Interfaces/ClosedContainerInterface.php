@@ -1,9 +1,9 @@
 <?php
 
-namespace Ing200086\GraphCore\Interfaces;
+namespace Ing200086\Envase\Interfaces;
 
-use Ing200086\GraphCore\Exception\InvalidArgumentException;
-use Ing200086\GraphCore\Exception\NotFoundException;
+use Ing200086\Envase\Exception\InvalidArgumentException;
+use Ing200086\Envase\Exception\NotFoundException;
 use Psr\Container\ContainerInterface;
 
 interface ClosedContainerInterface extends ContainerInterface {

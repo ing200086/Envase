@@ -1,9 +1,9 @@
 <?php
 
-namespace Ing200086\GraphCore;
+namespace Ing200086\Envase;
 
-use Ing200086\GraphCore\Exception\InvalidArgumentException;
-use Ing200086\GraphCore\Exception\NotFoundException;
+use Ing200086\Envase\Exception\InvalidArgumentException;
+use Ing200086\Envase\Exception\NotFoundException;
 
 class ClosedContainer {
     protected $_items;

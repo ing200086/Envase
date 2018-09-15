@@ -1,6 +1,6 @@
 <?php
 
-namespace Ing200086\GraphCore\Interfaces;
+namespace Ing200086\Envase\Interfaces;
 
 interface ValueContainerInterface extends ClosedContainerInterface {
     public function add(string $key, $item);

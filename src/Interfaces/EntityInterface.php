@@ -1,6 +1,6 @@
 <?php
 
-namespace Ing200086\GraphCore\Interfaces;
+namespace Ing200086\Envase\Interfaces;
 
 interface EntityInterface {
     public function getId() : string;

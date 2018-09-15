@@ -1,13 +1,13 @@
 <?php
 
-namespace Ing200086\GraphCore\Tests\Unit\Container\Entity;
+namespace Ing200086\Envase\Tests\Unit\Container\Entity;
 
-use Ing200086\GraphCore\EntityContainer;
+use Ing200086\Envase\EntityContainer;
 
 /**
  * Class EntityContainerTest
  *
- * @package Ing200086\GraphCore\Tests\Unit\Container\Entity
+ * @package Ing200086\Envase\Tests\Unit\Container\Entity
  * @group   focus
  */
 class ClosedContainerTest extends TestCase {

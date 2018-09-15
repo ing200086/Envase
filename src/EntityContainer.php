@@ -1,15 +1,15 @@
 <?php
 
-namespace Ing200086\GraphCore;
+namespace Ing200086\Envase;
 
-use Ing200086\GraphCore\Builder\EntityArrayBuilder;
-use Ing200086\GraphCore\Interfaces\EntityContainerInterface;
-use Ing200086\GraphCore\Interfaces\EntityInterface;
+use Ing200086\Envase\Builder\EntityArrayBuilder;
+use Ing200086\Envase\Interfaces\EntityContainerInterface;
+use Ing200086\Envase\Interfaces\EntityInterface;
 
 /**
  * Class EntityContainer
  *
- * @package Ing200086\GraphCore
+ * @package Ing200086\Envase
  */
 class EntityContainer extends BaseContainer implements EntityContainerInterface {
     /**

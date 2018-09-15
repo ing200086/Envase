@@ -1,13 +1,13 @@
 <?php
 
-namespace Ing200086\GraphCore\Builder;
+namespace Ing200086\Envase\Builder;
 
-use Ing200086\GraphCore\Interfaces\EntityInterface;
+use Ing200086\Envase\Interfaces\EntityInterface;
 
 /**
  * Class EntityArrayBuilder
  *
- * @package Ing200086\GraphCore\Builder
+ * @package Ing200086\Envase\Builder
  */
 class EntityArrayBuilder {
     protected $_items = [];

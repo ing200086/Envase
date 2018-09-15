@@ -1,8 +1,8 @@
 <?php
 
-namespace Ing200086\GraphCore;
+namespace Ing200086\Envase;
 
-use Ing200086\GraphCore\Interfaces\ClosedContainerInterface;
+use Ing200086\Envase\Interfaces\ClosedContainerInterface;
 
 class BaseContainer extends ClosedContainer implements ClosedContainerInterface {
     public static function FromArray(array $items)

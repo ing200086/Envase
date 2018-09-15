@@ -1,23 +1,19 @@
 {
-    "name": "ing200086/graph-core",
+    "name": "Ing200086/Envase",
     "type": "library",
-    "description": "Core components for mathematical graph libraries.",
+    "description": "Component container library.",
     "keywords": [
-        "graph",
-        "network",
-        "mathematical",
-        "vertex",
-        "edge"
+        "container"
     ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ing200086\\GraphCore\\": "src/"
+            "Ing200086\\Envase\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ing200086\\GraphCore\\Tests\\": "tests/"
+            "Ing200086\\Envase\\Tests\\": "tests/"
         }
     },
     "require": {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Ing200086\GraphCore\Tests\Unit\Container\Generic;
+namespace Ing200086\Envase\Tests\Unit\Container\Generic;
 
-use Ing200086\GraphCore\BaseContainer;
-use Ing200086\GraphCore\Exception\InvalidArgumentException;
+use Ing200086\Envase\BaseContainer;
+use Ing200086\Envase\Exception\InvalidArgumentException;
 
 /**
  * Class ClosedContainerTest
  *
- * @package Ing200086\GraphCore\Tests\Unit\Generic\Container
+ * @package Ing200086\Envase\Tests\Unit\Generic\Container
  *
  */
 class BaseContainerTest extends TestCase {
@@ -51,7 +51,7 @@ class BaseContainerTest extends TestCase {
     }
 
     /** @test
-     * @expectedException Ing200086\GraphCore\Exception\NotFoundException
+     * @expectedException Ing200086\Envase\Exception\NotFoundException
      */
     public function it_returns_exception_if_id_is_not_contained()
     {

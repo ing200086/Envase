@@ -1,8 +1,8 @@
 <?php
 
-namespace Ing200086\GraphCore\Interfaces;
+namespace Ing200086\Envase\Interfaces;
 
-use Ing200086\GraphCore\Exception\NotFoundException;
+use Ing200086\Envase\Exception\NotFoundException;
 
 interface EntityContainerInterface extends ClosedContainerInterface {
     public function add(EntityInterface &$entity);

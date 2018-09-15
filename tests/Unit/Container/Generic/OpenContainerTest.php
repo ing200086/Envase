@@ -1,13 +1,13 @@
 <?php
 
-namespace Ing200086\GraphCore\Tests\Unit\Container\Generic;
+namespace Ing200086\Envase\Tests\Unit\Container\Generic;
 
-use Ing200086\GraphCore\ValueContainer;
+use Ing200086\Envase\ValueContainer;
 
 /**
  * Class OpenContainerTest
  *
- * @package Ing200086\GraphCore\Tests\Unit\Generic\Container
+ * @package Ing200086\Envase\Tests\Unit\Generic\Container
  *
  */
 class OpenContainerTest extends TestCase {

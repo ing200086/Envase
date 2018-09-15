@@ -1,5 +1,5 @@
 <?php
-namespace Ing200086\GraphCore\Tests\Unit;
+namespace Ing200086\Envase\Tests\Unit;
 
 use \Mockery as M;
 

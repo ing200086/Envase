@@ -1,8 +1,8 @@
 <?php
 
-namespace Ing200086\GraphCore;
+namespace Ing200086\Envase;
 
-use Ing200086\GraphCore\Interfaces\ValueContainerInterface;
+use Ing200086\Envase\Interfaces\ValueContainerInterface;
 
 class ValueContainer extends BaseContainer implements ValueContainerInterface {
     public function add(string $key, $item)
