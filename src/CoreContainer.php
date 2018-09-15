@@ -5,7 +5,7 @@ namespace Ing200086\Envase;
 use Ing200086\Envase\Exception\InvalidArgumentException;
 use Ing200086\Envase\Exception\NotFoundException;
 
-class ClosedContainer {
+abstract class CoreContainer {
     protected $_items;
 
     protected function __construct(array $items)

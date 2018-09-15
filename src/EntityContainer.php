@@ -11,10 +11,10 @@ use Ing200086\Envase\Interfaces\EntityInterface;
  *
  * @package Ing200086\Envase
  */
-class EntityContainer extends BaseContainer implements EntityContainerInterface {
+class EntityContainer extends SealedContainer implements EntityContainerInterface {
     /**
      * @param array $items
-     * @return BaseContainer|EntityContainer
+     * @return SealedContainer|EntityContainer
      */
     public static function FromArray(array $items)
     {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Envase.iml" filepath="$PROJECT_DIR$/.idea/Envase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/graph.iml" filepath="$PROJECT_DIR$/.idea/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/graphCore.iml" filepath="$PROJECT_DIR$/.idea/graphCore.iml" />
     </modules>
