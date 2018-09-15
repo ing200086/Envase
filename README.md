@@ -8,7 +8,7 @@ Envase is a simple container library.
 ``` composer require Ing200086/Envase ```
 
 ## Container Types
-### ClosedContainer
+### SealedContainer
 A ClosedContainer cannot be altered, but it does allow access to the items within the container.
 ### EntityContainer
 This class contains entity objects. An entity object implements the EntityInterface

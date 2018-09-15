@@ -58,7 +58,7 @@ abstract class CoreContainer implements CoreContainerInterface {
     {
         return $this->size();
     }
-    
+
     function rewind()
     {
         return reset($this->_items);

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661232df-02d6-4481-bc48-13addd804e25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoreContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/ClosedContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/CoreContainerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/ValueContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/ValueContainerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SealedContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SealedContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/EntityContainer/EntityTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/EntityContainer/EntityTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/EntityContainer/ModifyContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/EntityContainer/ContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/SealedContainer/ContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/SealedContainer/ContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ValueContainer/ValueContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ValueContainer/ValueContainerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,22 +195,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="1" />
           <entry key="php" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="165" />
+          <entry key="md" value="15" />
           <entry key="php" value="1234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="15" />
           <entry key="PHP" value="1234" />
           <entry key="PLAIN_TEXT" value="165" />
         </counts>
@@ -234,10 +229,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreContainer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="441">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#36#92#0#PHP" expanded="true" />
               </folding>
@@ -371,7 +378,6 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/BaseContainer.php" />
         <option value="$PROJECT_DIR$/src/BaseContainer.php" />
         <option value="$PROJECT_DIR$/src/ClosedContainer.php" />
@@ -402,6 +408,7 @@
         <option value="$PROJECT_DIR$/src/SealedContainer.php" />
         <option value="$PROJECT_DIR$/src/Interfaces/CoreContainerInterface.php" />
         <option value="$PROJECT_DIR$/src/CoreContainer.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -613,12 +620,12 @@
       <workItem from="1536806531381" duration="20800000" />
       <workItem from="1536982272475" duration="3436000" />
       <workItem from="1536985748528" duration="10000" />
-      <workItem from="1537016093212" duration="4451000" />
+      <workItem from="1537016093212" duration="4535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154491000" />
+    <option name="totallyTimeSpent" value="154575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -810,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -924,11 +921,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreContainer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="441">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#36#92#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
