@@ -2,7 +2,7 @@
 
 namespace Ing200086\GraphCore\Tests\Unit\Container\Entity;
 
-use Ing200086\GraphCore\Entity\EntityInterface;
+use Ing200086\GraphCore\Interfaces\EntityInterface;
 use Mockery;
 
 class TestCase extends \PHPUnit\Framework\TestCase {

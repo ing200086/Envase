@@ -1,11 +1,10 @@
 <?php
 
-namespace Ing200086\GraphCore\Entity;
+namespace Ing200086\GraphCore\Interfaces;
 
 use Ing200086\GraphCore\Exception\NotFoundException;
-use Ing200086\GraphCore\ClosedContainerInterface;
 
-interface ContainerInterface extends ClosedContainerInterface {
+interface EntityContainerInterface extends ClosedContainerInterface {
     public function add(EntityInterface &$entity);
 
     /**

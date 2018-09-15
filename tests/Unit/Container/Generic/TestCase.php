@@ -1,6 +1,6 @@
 <?php
 
-namespace Ing200086\GraphCore\Tests\Unit\ Container\Generic;
+namespace Ing200086\GraphCore\Tests\Unit\Container\Generic;
 
 use Mockery;
 use Psr\Container\ContainerInterface;

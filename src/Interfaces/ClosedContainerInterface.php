@@ -1,6 +1,6 @@
 <?php
 
-namespace Ing200086\GraphCore;
+namespace Ing200086\GraphCore\Interfaces;
 
 use Ing200086\GraphCore\Exception\InvalidArgumentException;
 use Ing200086\GraphCore\Exception\NotFoundException;
@@ -30,17 +30,4 @@ interface ClosedContainerInterface extends ContainerInterface {
      * @return array
      */
     public function toArray() : array;
-
-    /**
-     * @param callable $closure
-     * @return bool
-     */
-    public function hasThatMatches(callable $closure) : bool;
-
-    /**
-     * @param callable $closure
-     * @return ClosedContainerInterface
-     * @throws NotFoundException
-     */
-    public function getThatMatches(callable $closure) : ClosedContainerInterface;
 }
