@@ -5,7 +5,7 @@ namespace Ing200086\Envase\Interfaces;
 use Ing200086\Envase\Exception\NotFoundException;
 
 interface EntityContainerInterface extends CoreContainerInterface {
-    public function add(EntityInterface &$entity);
+    public function add(EntityInterface $entity);
 
     /**
      * @param string $id

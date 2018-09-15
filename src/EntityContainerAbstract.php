@@ -15,7 +15,7 @@ abstract class EntityContainerAbstract extends SealedContainerAbstract implement
     /**
      * @param EntityInterface $entity
      */
-    public function add(EntityInterface &$entity)
+    public function add(EntityInterface $entity)
     {
         $this->_items[$entity->getId()] = $entity;
     }
