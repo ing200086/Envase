@@ -2,12 +2,12 @@
 
 namespace Ing200086\Envase;
 
-use Ing200086\Envase\Interfaces\ValueContainerInterface;
+use Ing200086\Envase\Interfaces\KeyValueContainerInterface;
 
-class ValueContainer extends SealedContainer implements ValueContainerInterface  {
+class KeyValueContainer extends SealedContainer implements KeyValueContainerInterface  {
     /**
      * @param array $items
-     * @return ValueContainer
+     * @return KeyValueContainer
      */
     public static function FromArray(array $items)
     {

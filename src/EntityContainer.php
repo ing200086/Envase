@@ -13,6 +13,14 @@ use Ing200086\Envase\Interfaces\EntityInterface;
  */
 class EntityContainer extends SealedContainer implements EntityContainerInterface {
     /**
+     * @return SealedContainer|mixed
+     */
+    public static function Create()
+    {
+        return parent::Create();
+    }
+
+    /**
      * @param array $items
      * @return EntityContainer
      */

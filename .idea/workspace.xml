@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="661232df-02d6-4481-bc48-13addd804e25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayContainerAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayContainerAbstract.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EntityContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityContainerAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/CoreContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/ArrayContainerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/ValueContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/KeyValueContainerInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SealedContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SealedContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SealedContainerAbstract.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ValueContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValueContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValueContainerAbstract.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,27 +204,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="php" value="53" />
+          <entry key="php" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="53" />
+          <entry key="PHP" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="253" />
+          <entry key="dummy" value="290" />
           <entry key="md" value="15" />
-          <entry key="php" value="1824" />
+          <entry key="php" value="2016" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="15" />
-          <entry key="PHP" value="1824" />
-          <entry key="PLAIN_TEXT" value="253" />
+          <entry key="PHP" value="2016" />
+          <entry key="PLAIN_TEXT" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -238,8 +239,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayContainerAbstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-720">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="252">
+              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+              <folding>
+                <element signature="e#36#85#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,20 +251,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SealedContainer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Interfaces/ArrayContainerInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
-                <element signature="e#36#92#0#PHP" expanded="true" />
+                <element signature="e#47#103#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Interfaces/KeyValueContainerInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ValueContainer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="84">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Interfaces/EntityInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -268,17 +299,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="231">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EntityContainer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="399">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#36#85#0#PHP" expanded="true" />
               </folding>
@@ -344,8 +375,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/Unit/Container/Entity/ClosedContainerTest.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/BaseContainer.php" />
@@ -386,15 +415,17 @@
         <option value="$PROJECT_DIR$/src/Abstracts/AbstractEntityContainer.php" />
         <option value="$PROJECT_DIR$/src/Abstracts/EntityContainer.php" />
         <option value="$PROJECT_DIR$/src/Abstracts/EntityContainerAbstract.php" />
-        <option value="$PROJECT_DIR$/src/ArrayContainerAbstract.php" />
-        <option value="$PROJECT_DIR$/src/Interfaces/CoreContainerInterface.php" />
-        <option value="$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php" />
         <option value="$PROJECT_DIR$/src/EntityContainerAbstract.php" />
         <option value="$PROJECT_DIR$/src/ValueContainerAbstract.php" />
         <option value="$PROJECT_DIR$/src/SealedContainerAbstract.php" />
-        <option value="$PROJECT_DIR$/src/SealedContainer.php" />
-        <option value="$PROJECT_DIR$/src/ValueContainer.php" />
         <option value="$PROJECT_DIR$/src/EntityContainer.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/ValueContainerInterface.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/CoreContainerInterface.php" />
+        <option value="$PROJECT_DIR$/src/ArrayContainerAbstract.php" />
+        <option value="$PROJECT_DIR$/src/SealedContainer.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/KeyValueContainerInterface.php" />
+        <option value="$PROJECT_DIR$/src/ValueContainer.php" />
       </list>
     </option>
   </component>
@@ -608,12 +639,12 @@
       <workItem from="1536985748528" duration="10000" />
       <workItem from="1537016093212" duration="8298000" />
       <workItem from="1537035555036" duration="168000" />
-      <workItem from="1537036680263" duration="270000" />
+      <workItem from="1537036680263" duration="2669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158776000" />
+    <option name="totallyTimeSpent" value="161175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -695,13 +726,6 @@
     <entry file="file://$PROJECT_DIR$/src/Entity/ClosedContainer.php" />
     <entry file="file://$PROJECT_DIR$/tests/Unit/Container/Generic/ClosedContainerTest.php" />
     <entry file="file://$PROJECT_DIR$/src/Generic/ContainerInterface.php" />
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/EntityInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpmetrics/phpmetrics/src/Hal/Metric/ClassMetric.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -833,39 +857,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/ValueContainerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Builder/EntityArrayBuilder.php" />
     <entry file="file://$PROJECT_DIR$/src/Abstracts/AssociatedArrayTrait.php" />
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/CoreContainerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#47#103#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayContainerAbstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EntityContainerAbstract.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -887,30 +880,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SealedContainer.php">
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/EntityInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="42">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayContainerAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
           <folding>
-            <element signature="e#36#92#0#PHP" expanded="true" />
+            <element signature="e#36#85#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValueContainer.php">
+    <entry file="file://$PROJECT_DIR$/src/SealedContainer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EntityContainer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="399">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#36#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/EntityContainerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/ArrayContainerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#47#103#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/KeyValueContainerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValueContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>

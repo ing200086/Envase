@@ -6,7 +6,7 @@ use Ing200086\Envase\Exception\InvalidArgumentException;
 use Ing200086\Envase\Exception\NotFoundException;
 use Psr\Container\ContainerInterface;
 
-interface CoreContainerInterface extends ContainerInterface, \Countable, \Iterator {
+interface ArrayContainerInterface extends ContainerInterface, \Countable, \Iterator {
     /**
      * @param $id
      * @return mixed
