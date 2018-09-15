@@ -39,11 +39,16 @@ class ContainerTest extends EntityTestCase {
     public function it_can_be_iterated_through() {
         $count = 0;
 
-        foreach ( $this->_container as $item )
+        foreach ( $this->_container as $key => $item )
         {
             $count++;
         }
 
         $this->assertEquals(26, $count);
+    }
+
+    /** @test*/
+    public function it_can_be_counted() {
+        $this->assertEquals(26, count($this->_container));
     }
 }
