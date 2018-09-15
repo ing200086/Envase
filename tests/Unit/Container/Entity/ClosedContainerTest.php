@@ -3,7 +3,6 @@
 namespace Ing200086\GraphCore\Tests\Unit\Container\Entity;
 
 use Ing200086\GraphCore\EntityContainer;
-use Ing200086\GraphCore\Interfaces\EntityContainerInterface;
 
 /**
  * Class EntityContainerTest
@@ -33,8 +32,9 @@ class ClosedContainerTest extends TestCase {
         $this->assertSame($this->_entity, $this->_container->get($id), 'Container could not return same entity');
     }
 
-    /** @test*/
-    public function it_can_have_an_entity_added() {
+    /** @test */
+    public function it_can_have_an_entity_added()
+    {
         $this->_container = EntityContainer::Create();
 
         $this->_container->add($this->_entity);
@@ -42,8 +42,9 @@ class ClosedContainerTest extends TestCase {
         $this->assertTrue($this->_container->has($this->_entity->getId()));
     }
 
-    /** @test*/
-    public function it_can_remove_items_that_are_in_the_container() {
+    /** @test */
+    public function it_can_remove_items_that_are_in_the_container()
+    {
         $this->_container->remove($this->_entity->getId());
 
         $this->assertFalse($this->_container->has($this->_entity->getId()));
