@@ -2,12 +2,9 @@
 
 namespace Ing200086\Envase;
 
-class ValueContainer extends ValueContainerAbstract {
-    protected function __construct(array $items)
-    {
-        $this->_items = $items;
-    }
+use Ing200086\Envase\Interfaces\ValueContainerInterface;
 
+class ValueContainer extends SealedContainer implements ValueContainerInterface  {
     /**
      * @param array $items
      * @return ValueContainer
@@ -18,10 +15,21 @@ class ValueContainer extends ValueContainerAbstract {
     }
 
     /**
-     * @return ValueContainer
+     * @param string $key
+     * @param        $item
      */
-    public static function Create()
+    public function add(string $key, $item)
     {
-        return new static([]);
+        $this->_items[$key] = $item;
+    }
+
+    /**
+     * @param string $id
+     * @throws \Exception
+     */
+    public function remove(string $id)
+    {
+        $this->get($id);
+        unset($this->_items[$id]);
     }
 }

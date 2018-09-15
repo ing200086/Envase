@@ -2,17 +2,16 @@
 
 namespace Ing200086\Envase;
 
+use Ing200086\Envase\Exception\NotFoundException;
+use Ing200086\Envase\Interfaces\EntityContainerInterface;
+use Ing200086\Envase\Interfaces\EntityInterface;
+
 /**
  * Class EntityContainer
  *
  * @package Ing200086\Envase
  */
-class EntityContainer extends EntityContainerAbstract {
-    protected function __construct(array $items)
-    {
-        $this->_items = $items;
-    }
-
+class EntityContainer extends SealedContainer implements EntityContainerInterface {
     /**
      * @param array $items
      * @return EntityContainer
@@ -30,10 +29,21 @@ class EntityContainer extends EntityContainerAbstract {
     }
 
     /**
-     * @return EntityContainer
+     * @param EntityInterface $entity
      */
-    public static function Create()
+    public function add(EntityInterface $entity)
     {
-        return new static([]);
+        $this->_items[$entity->getId()] = $entity;
+    }
+
+    /**
+     * @param string $id
+     * @return mixed|void
+     * @throws NotFoundException
+     */
+    public function remove(string $id)
+    {
+        $this->get($id);
+        unset($this->_items[$id]);
     }
 }
