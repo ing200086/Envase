@@ -10,7 +10,7 @@ use Ing200086\Envase\EntityContainer;
  * @package Ing200086\Envase\Tests\Unit\Container\Entity
  * @group   focus
  */
-class ModifyContainerTest extends EntityTestCase {
+class ContainerTest extends EntityTestCase {
     /** @test */
     public function it_can_return_container_size()
     {
@@ -33,5 +33,17 @@ class ModifyContainerTest extends EntityTestCase {
         $this->_container->remove($this->_entity->getId());
 
         $this->assertFalse($this->_container->has($this->_entity->getId()));
+    }
+
+    /** @test*/
+    public function it_can_be_iterated_through() {
+        $count = 0;
+
+        foreach ( $this->_container as $item )
+        {
+            $count++;
+        }
+
+        $this->assertEquals(26, $count);
     }
 }

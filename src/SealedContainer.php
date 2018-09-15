@@ -2,14 +2,12 @@
 
 namespace Ing200086\Envase;
 
-use Ing200086\Envase\Interfaces\ClosedContainerInterface;
-
 /**
  * Class BaseContainer
  *
  * @package Ing200086\Envase
  */
-class SealedContainer extends CoreContainer implements ClosedContainerInterface {
+class SealedContainer extends CoreContainer {
     /**
      * @param array $items
      * @return SealedContainer

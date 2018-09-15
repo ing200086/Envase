@@ -6,7 +6,7 @@ use Ing200086\Envase\Exception\InvalidArgumentException;
 use Ing200086\Envase\Exception\NotFoundException;
 use Psr\Container\ContainerInterface;
 
-interface ClosedContainerInterface extends ContainerInterface {
+interface CoreContainerInterface extends ContainerInterface, \Countable, \Iterator {
     /**
      * @param $id
      * @return mixed
@@ -30,4 +30,9 @@ interface ClosedContainerInterface extends ContainerInterface {
      * @return array
      */
     public function toArray() : array;
+
+    /**
+     * @return int
+     */
+    public function count() : int;
 }

@@ -6,6 +6,11 @@ use Ing200086\Envase\EntityContainer;
 use Ing200086\Envase\Interfaces\EntityInterface;
 use Ing200086\Envase\Tests\Unit\TestCase;
 
+/**
+ * Class EntityTestCase
+ *
+ * @package Ing200086\Envase\Tests\Unit\EntityContainer
+ */
 class EntityTestCase extends TestCase {
     protected function setUp()
     {

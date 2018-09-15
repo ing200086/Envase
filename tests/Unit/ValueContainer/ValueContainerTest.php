@@ -6,7 +6,6 @@ namespace Ing200086\Envase\Tests\Unit\ValueContainer;
  * Class OpenContainerTest
  *
  * @package Ing200086\Envase\Tests\Unit\Generic\Container
- * @group   focus
  *
  */
 class ValueContainerTest extends ValueTestCase {

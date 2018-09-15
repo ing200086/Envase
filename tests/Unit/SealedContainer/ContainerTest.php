@@ -19,4 +19,9 @@ class ContainerTest extends SealedTestCase {
     {
         $this->assertEquals($this->_entities, $this->_container->toArray());
     }
+
+    /** @test*/
+    public function it_can_be_counted() {
+        $this->assertEquals(1, count($this->_container));
+    }
 }
