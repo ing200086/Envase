@@ -7,7 +7,12 @@ namespace Ing200086\Envase;
  *
  * @package Ing200086\Envase
  */
-class SealedContainer extends CoreContainer {
+class SealedContainer extends SealedContainerAbstract {
+    protected function __construct(array $items)
+    {
+        $this->_items = $items;
+    }
+
     /**
      * @param array $items
      * @return SealedContainer

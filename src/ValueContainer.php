@@ -2,21 +2,26 @@
 
 namespace Ing200086\Envase;
 
-use Ing200086\Envase\Interfaces\ValueContainerInterface;
-
-class ValueContainer extends SealedContainer implements ValueContainerInterface {
-    public function add(string $key, $item)
+class ValueContainer extends ValueContainerAbstract {
+    protected function __construct(array $items)
     {
-        $this->_items[$key] = $item;
+        $this->_items = $items;
     }
 
     /**
-     * @param string $id
-     * @throws \Exception
+     * @param array $items
+     * @return ValueContainer
      */
-    public function remove(string $id)
+    public static function FromArray(array $items)
     {
-        $this->get($id);
-        unset($this->_items[$id]);
+        return new static($items);
+    }
+
+    /**
+     * @return ValueContainer
+     */
+    public static function Create()
+    {
+        return new static([]);
     }
 }

@@ -6,19 +6,13 @@ use Ing200086\Envase\Exception\InvalidArgumentException;
 use Ing200086\Envase\Exception\NotFoundException;
 use Ing200086\Envase\Interfaces\CoreContainerInterface;
 
-abstract class CoreContainer implements CoreContainerInterface {
-    protected $_items;
 
-    protected function __construct(array $items)
-    {
-        $this->_items = $items;
-    }
-
-    public function toArray() : array
-    {
-        return $this->_items;
-    }
-
+/**
+ * Class SealedContainerAbstract
+ *
+ * @package Ing200086\Envase
+ */
+abstract class SealedContainerAbstract extends ArrayContainerAbstract implements CoreContainerInterface {
     /**
      * @param string $id
      * @return mixed
@@ -48,41 +42,4 @@ abstract class CoreContainer implements CoreContainerInterface {
 
         return (isset($this->_items[$id]));
     }
-
-    public function size() : int
-    {
-        return count($this->_items);
-    }
-
-    public function count() : int
-    {
-        return $this->size();
-    }
-
-    function rewind()
-    {
-        return reset($this->_items);
-    }
-
-    function current()
-    {
-        return current($this->_items);
-    }
-
-    function key()
-    {
-        return key($this->_items);
-    }
-
-    function next()
-    {
-        return next($this->_items);
-    }
-
-    function valid()
-    {
-        return key($this->_items) !== null;
-    }
-
-
 }

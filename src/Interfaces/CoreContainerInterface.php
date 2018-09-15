@@ -10,8 +10,7 @@ interface CoreContainerInterface extends ContainerInterface, \Countable, \Iterat
     /**
      * @param $id
      * @return mixed
-     * @throws NotFoundException
-     * @throws InvalidArgumentException
+     * @throws NotFoundException | InvalidArgumentException
      */
     public function get($id);
 
